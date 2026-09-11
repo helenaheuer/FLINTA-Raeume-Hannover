@@ -225,3 +225,9 @@
 .leaflet-popup-close-button:hover {
     color: #fff !important;
 }
+#map {
+    border: 3px solid rgba(255,255,255,.4);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
