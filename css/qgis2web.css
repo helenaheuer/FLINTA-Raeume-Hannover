@@ -24,7 +24,7 @@
             margin: 0 0 5px;
         }
         .leaflet-container {
-            background: #181719 !important;
+            background: #fff;
             padding-right: 10px;
         }
         .leaflet-popup-scrolled {
