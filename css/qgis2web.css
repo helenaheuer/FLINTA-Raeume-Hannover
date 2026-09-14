@@ -237,3 +237,33 @@
 .leaflet-popup-close-button:hover {
     color: #fff !important;
 }
+
+.leaflet-control-layers-selector {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #9a8aa3 !important;
+    border: 1px solid #9a8aa3 !important;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.leaflet-control-layers-selector:checked {
+    background-color: #9a8aa3 !important;
+}
+
+.leaflet-control-layers-selector:checked::after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
