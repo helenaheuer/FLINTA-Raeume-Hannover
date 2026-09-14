@@ -129,14 +129,15 @@
         .leaflet-container .leaflet-control-search{
             background: none !important;
         }
-        .leaflet-control-search .search-input {
-            margin: 0px 0px 0px 0px !important;
-            height: 30px !important;
-        }
 
-		.leaflet-control-search .photon-input {
+		.leaflet-control-search input.photon-input {
 		    background-color: #181719 !important;
 		    color: #9a8aa3 !important;
+		}
+		
+		.leaflet-control-search input.photon-input::placeholder {
+		    color: #9a8aa3 !important;
+		    opacity: 1;
 		}
 		
 		.leaflet-control-search .photon-input::placeholder {
