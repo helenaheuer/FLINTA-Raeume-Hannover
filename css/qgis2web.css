@@ -134,12 +134,12 @@
             height: 30px !important;
         }
 
-		.leaflet-control-search .search-input {
+		.leaflet-control-search .photon-input {
 		    background-color: #181719 !important;
 		    color: #9a8aa3 !important;
 		}
 		
-		.leaflet-control-search .search-input::placeholder {
+		.leaflet-control-search .photon-input::placeholder {
 		    color: #9a8aa3 !important;
 		    opacity: 1;
 		}
