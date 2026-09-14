@@ -99,7 +99,8 @@
         .leaflet-touch .leaflet-control-layers,
         .leaflet-touch .leaflet-bar,
         .leaflet-control-search,
-        .leaflet-control-measure {
+        .leaflet-control-measure,
+		.leaflet-popup-content-wrapper {
             border: 3px solid rgba(255,255,255,.4) !important;
         }
         .leaflet-control-attribution a {
@@ -216,6 +217,17 @@
 .leaflet-popup-tip {
     background-color: #181719 !important;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.leaflet-popup-tip {
+    background-color: #181719 !important;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.leaflet-popup-tip {
+    border: 3px solid rgba(255,255,255,.4) !important;
+    border-top: none !important;
+    border-left: none !important;
 }
 
 .leaflet-popup-close-button {
