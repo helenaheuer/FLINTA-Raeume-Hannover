@@ -133,6 +133,16 @@
             margin: 0px 0px 0px 0px !important;
             height: 30px !important;
         }
+
+		.leaflet-control-search .search-input {
+		    background-color: #181719 !important;
+		    color: #9a8aa3 !important;
+		}
+		
+		.leaflet-control-search .search-input::placeholder {
+		    color: #9a8aa3 !important;
+		    opacity: 1;
+		}
         .leaflet-control-measure {
             background: none!important;
             border-radius: 4px !important;
