@@ -238,32 +238,3 @@
     color: #fff !important;
 }
 
-.leaflet-control-layers-selector {
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    width: 14px !important;
-    height: 14px !important;
-    background-color: #9a8aa3 !important;
-    border: 1px solid #9a8aa3 !important;
-    border-radius: 3px !important;
-    position: relative;
-    cursor: pointer;
-    margin-top: 2px;
-    top: 1px;
-}
-
-.leaflet-control-layers-selector:checked {
-    background-color: #9a8aa3 !important;
-}
-
-.leaflet-control-layers-selector:checked::after {
-    content: '';
-    position: absolute;
-    left: 4px;
-    top: 1px;
-    width: 4px;
-    height: 7px;
-    border: solid #000000;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-}
