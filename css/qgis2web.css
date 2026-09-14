@@ -239,17 +239,17 @@
 }
 
 .leaflet-control-layers-selector {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 16px;
-    height: 16px;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 14px !important;
+    height: 14px !important;
     background-color: #9a8aa3 !important;
     border: 1px solid #9a8aa3 !important;
-    border-radius: 3px;
+    border-radius: 3px !important;
     position: relative;
     cursor: pointer;
-    margin: 0 5px 0 0;
-    vertical-align: middle;
+    margin-top: 2px;
+    top: 1px;
 }
 
 .leaflet-control-layers-selector:checked {
@@ -262,7 +262,7 @@
     left: 4px;
     top: 1px;
     width: 4px;
-    height: 8px;
+    height: 7px;
     border: solid #000000;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
