@@ -147,6 +147,8 @@
             this._div.id = 'abstract'
                 this._div.setAttribute("onmouseenter", "abstract.show()");
                 this._div.setAttribute("onmouseleave", "abstract.hide()");
+			    L.DomEvent.disableClickPropagation(this._div);
+        		L.DomEvent.disableScrollPropagation(this._div);
                 this.hide();
                 return this._div;
             };
