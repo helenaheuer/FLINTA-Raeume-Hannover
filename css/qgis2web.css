@@ -295,3 +295,13 @@
 .leaflet-control-zoom-in {
     border-bottom: 1px solid #9a8aa3 !important;
 }
+.leaflet-control-layers-toggle {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 26 26'%3E%3Cg fill='none' stroke='%239a8aa3' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='M13 4 L23 9 L13 14 L3 9 Z'/%3E%3Cpath d='M3 13 L13 18 L23 13'/%3E%3Cpath d='M3 17 L13 22 L23 17'/%3E%3C/g%3E%3C/svg%3E") !important;
+    background-size: 26px 26px !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+}
+
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+    background-image: none !important;
+}
