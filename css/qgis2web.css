@@ -92,6 +92,19 @@
             border-radius: 5px;
             max-width: 40%;
         }
+		.abstractUncollapsed {
+		    box-sizing: border-box;
+		    max-height: 70vh;
+		    overflow-y: auto;
+		}
+		
+		@media (max-width: 768px) {
+		    .abstractUncollapsed {
+		        max-width: calc(100vw - 40px);
+		        max-height: 60vh;
+		        font-size: 12px;
+		    }
+		}
         .leaflet-control {
             box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4)!important;
             border-radius: 4px;
